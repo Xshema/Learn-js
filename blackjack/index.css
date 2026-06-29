@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    
+    height: 100vh;
+    background-color: #016f32;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+/* 
+3. Style the button according to the provided design
+text color - #016f32
+width      - 150px
+background - goldenrod
+ */
+ 
+button {
+color: #016f32;
+width: 350px;
+height: 60px;
+background-color: goldenrod;
+margin-top: 10px;
+cursor: pointer;
+border: none;
+border-radius: 10px;
+transition: 0.5s;
+font-weight: bolder;
+}
+button:hover{
+   filter: brightness(1.3);
+}
+.new-card{
+    margin-top: 0;
+}
